@@ -1,0 +1,85 @@
+/************************ GENERAL ************************/
+
+
+
+body {
+	font-family: Corbel, arial, sans-serif;
+	margin:0;
+	width: auto;
+	height: auto;
+
+}
+
+a { 
+	text-decoration: none;
+	color: #000000;
+	}
+
+
+
+/************************ HEADER ************************/
+
+#header {
+	background-color: #6ecdca;
+
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-top: 0;
+	margin-bottom: 4px;
+	text-align: center;
+	padding-top: 0 0 0 0;
+	color: #ffffff;
+
+}
+
+h2 {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+
+}
+
+
+/************************ NAV ************************/
+
+#nav {
+	color: #ffffff;
+	background-color: #3db4b0;
+	text-align: center;
+	list-style: none;
+	margin: 0;
+}
+
+#nav li {
+
+	color: #ffffff;
+	display: inline-block;
+	padding: 6px 8px 6px 8px;
+
+}
+
+#nav li a {
+	color: #ffffff;
+}
+
+#nav li:hover {
+	background-color: #6ecdca;
+
+}
+
+
+
+/************************ CONTENT ************************/
+
+#content {
+	width: 600px;
+	margin: 30px auto;
+}
+
+#content h4 {
+	border-bottom: #3db4b0 solid 3px;
+}
